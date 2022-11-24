@@ -14,17 +14,17 @@
 
     <div class="campo">
         <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" placeholder="Tu Apellido" name="apellido" value="<?php echo s($usuario->apellido); ?>">>
+        <input type="text" id="apellido" placeholder="Tu Apellido" name="apellido" value="<?php echo s($usuario->apellido); ?>">
     </div>
 
     <div class="campo">
         <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" placeholder="Tu Teléfono" name="telefono" value="<?php echo s($usuario->telefono); ?>">>
+        <input type="tel" id="telefono" placeholder="Tu Teléfono" name="telefono" value="<?php echo s($usuario->telefono); ?>">
     </div>
 
     <div class="campo">
         <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Tu Email" name="email" value="<?php echo s($usuario->email); ?>">>
+        <input type="email" id="email" placeholder="Tu Email" name="email" value="<?php echo s($usuario->email); ?>">
     </div>
 
     <div class="campo">
